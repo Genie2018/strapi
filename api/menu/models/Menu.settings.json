@@ -1,0 +1,22 @@
+{
+  "connection": "default",
+  "collectionName": "menus",
+  "info": {
+    "name": "menu",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "DateMenu": {
+      "type": "date"
+    },
+    "plats": {
+      "collection": "plat",
+      "via": "menu"
+    }
+  }
+}
